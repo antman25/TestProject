@@ -8,7 +8,7 @@ myTest()
 //  ])
 //}
 
-/*podTemplates.dockerTemplate {
+podTemplates.dockerTemplate {
     node(POD_LABEL) {
       stage('Checkout Code') {
         checkout scm
@@ -18,4 +18,4 @@ myTest()
       buildDockerImage config
     }
   }
-*/
+
