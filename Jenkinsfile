@@ -2,9 +2,9 @@ library 'jenkins-shared-lib'
 
 myTest()
 
-//withEnv(["DOCKER_CREDENTIALS=nexus_auth"]) {
+withEnv(["GIT_BRANCH=main"]) {
   runNodeSvcPipeline([
     repository: ''
   ])
-//}
+}
 
