@@ -6,7 +6,7 @@ library 'jenkins-shared-lib'
 //  ])
 //}
 
-podTemplates.dockerTemplate {
+/*podTemplates.dockerTemplate {
     node(POD_LABEL) {
       stage('Checkout Code') {
         checkout scm
@@ -16,3 +16,4 @@ podTemplates.dockerTemplate {
       buildDockerImage config
     }
   }
+*/
