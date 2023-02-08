@@ -2,7 +2,7 @@ library 'jenkins-shared-lib'
 
 myTest()
 
-withEnv(["GIT_BRANCH=main"]) {
+withEnv(["BRANCH_NAME=main"]) {
   runNodeSvcPipeline([
     repository: ''
   ])
